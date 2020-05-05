@@ -79,10 +79,11 @@ bg-grey {
     border-bottom: 2px solid #E7A212;
 }
 
-button {
-    background-color: #E7A212;
-    border: none;
-    color: white;
+.msg-button {
+    background-color: transparent;
+    border: 1px solid #E7A212;
+    border-radius: .3em;
+    color: #E7A212;
     padding: 8px 20px;
     text-align: center;
     text-decoration: none;
@@ -93,4 +94,11 @@ button {
     cursor: pointer;
     position: relative;
     right: 0;
+    width: 100%;
+}
+
+.msg-button:hover{
+    background-color: #E7A212;
+    color: white;
+    font-weight: 600;
 }
