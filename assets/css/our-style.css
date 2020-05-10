@@ -97,8 +97,12 @@ bg-grey {
     width: 100%;
 }
 
-.msg-button:hover{
+.msg-button:hover {
     background-color: #E7A212;
     color: white;
     font-weight: 600;
+}
+
+html {
+    scroll-behavior: smooth;
 }
